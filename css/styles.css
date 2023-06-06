@@ -17,11 +17,6 @@ body, html {
     color: #000;
 }
 
-  .cartao-titulo {
-    margin-top: 20%;
-
-  }
-
   .card:hover:not(.no-effects) {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -43,4 +38,8 @@ body, html {
 
   .card-text{
     text-align: justify;
+  }
+
+  .cartao-titulo .card-text{
+    text-align: center;
   }

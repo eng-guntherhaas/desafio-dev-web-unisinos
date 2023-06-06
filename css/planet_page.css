@@ -16,11 +16,12 @@ body, html {
     color: #ddd;
   }
 
+  ol li {
+    margin-bottom: 15px;
+  }
+
   .main-text{
     margin-top: 5%;
   }
 
-  .planet-text {
-    text-align: justify;
-  }
 
