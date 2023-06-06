@@ -12,6 +12,11 @@ body, html {
     background-size: cover;
   }
 
+  a, a:link, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
   .cartao-titulo {
     margin-top: 20%;
 

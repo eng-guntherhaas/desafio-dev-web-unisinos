@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+  }
+
+  .bg {
+    background-color: #111;
+  }
+
+.fixed-img {
+    position: fixed;
+    right: 60%;
+    height: 900px;
+  }
+
+  div{
+    color: #ddd;
+  }
+
+  .main-text{
+    margin-top: 5%;
+  }
+
+  .planet-text {
+    text-align: justify;
+  }
+
