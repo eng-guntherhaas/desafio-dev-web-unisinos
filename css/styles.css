@@ -4,11 +4,9 @@ body, html {
 
   .bg {
     background-image: url('../img/hubble_deep_field.jpg');
-  
+    background-repeat: repeat-y;
     height: 100%;
-  
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
   }
 
@@ -28,8 +26,8 @@ body, html {
 
   .card-img-top {
     width: 100%;
-    height: 250px; /* Defina a altura desejada para as imagens */
-    object-fit:cover; /* Para manter a proporção e preencher a área */
+    height: 250px;
+    object-fit:cover;
   }
 
   .card {
