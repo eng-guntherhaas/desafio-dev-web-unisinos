@@ -16,7 +16,7 @@ let proximoItem = 1;
     if(event.target.matches(".fixed-img")) {
       openModal();
     }
-    if (event.target.matches(".close") || event.target.matches(".modal")) {
+    if (event.target.matches(".close") || event.target.matches(".modal-outside")) {
       closeModal();
     }
   }

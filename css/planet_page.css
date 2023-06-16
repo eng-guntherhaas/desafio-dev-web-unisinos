@@ -16,7 +16,7 @@ body, html {
     transform: scale(1.05);
   }
 
-  div{
+  div {
     color: #ddd;
   }
 
@@ -29,7 +29,7 @@ body, html {
     margin-top: 5%;
   }
 
-  .modal {
+  .modal-outside {
     display: none;
     position: fixed;
     z-index: 1;
@@ -41,12 +41,13 @@ body, html {
     background-color: rgba(0, 0, 0, 0.5);
   }
   
-  .modal-content {
+  .modal-inside {
     background-color: white;
+    color: #111;
     margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
   }
   
   .close {
@@ -63,4 +64,5 @@ body, html {
     text-decoration: none;
     cursor: pointer;
   }
+
   
